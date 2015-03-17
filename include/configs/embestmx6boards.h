@@ -177,6 +177,7 @@
 #endif
 
 /* Framebuffer */
+#if 0
 #define CONFIG_VIDEO
 #define CONFIG_VIDEO_IPUV3
 #define CONFIG_CFB_CONSOLE
@@ -192,6 +193,7 @@
 #define CONFIG_IPUV3_CLK 260000000
 #define CONFIG_IMX_HDMI
 #define CONFIG_IMX_VIDEO_SKIP
+#endif
 
 #include <config_distro_defaults.h>
 
