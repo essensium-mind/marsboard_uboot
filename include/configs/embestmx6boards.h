@@ -234,4 +234,7 @@
 	"fdtfile=" CONFIG_FDTFILE "\0" \
 	BOOTENV
 
+/* Android */
+#define CONFIG_ANDROID_BOOT_IMAGE
+
 #endif                         /* __RIOTBOARD_CONFIG_H */
